@@ -5,6 +5,7 @@ def Odejmowanie(a, b):
 def Mnozenie(a, b):
     return a * b
 def Dzielenie(a, b):
+    // sprawdzenie czy jest dzielenie przez zero
     if b == 0:
         return "Dzielenie przez zero!"
     return a / b
@@ -14,6 +15,8 @@ while True:
     input1 = input()
     print("Wybierz 2 liczbę: ")
     input2 = input()
+
+    // w tym miejscu można dodać sprawdzanie czy wartość jest liczbą tera program się wywali na łeb
 
     liczba1 = float(input1)
     liczba2 = float(input2)
